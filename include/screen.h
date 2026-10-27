@@ -1,0 +1,14 @@
+#ifndef SCREEN_H
+#define SCREEN_H
+
+typedef enum {
+    SCREEN_MENU,
+    SCREEN_GAMES,
+    SCREEN_MUSIC,
+    SCREEN_PICTURES,
+    SCREEN_DOWNLOAD,
+    SCREEN_CONNECT,
+    SCREEN_NATIVE_GAMES
+} Screen;
+
+#endif
